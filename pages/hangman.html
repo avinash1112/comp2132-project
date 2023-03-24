@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hangman | COMP 2132</title>
+        <link rel="icon" href="../graphics/favicon/hangman.png">
+
+        <!-- Google Material Icons Style sheet -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Font Awesome Style Sheet (used only for popup close button) -->
+        <link rel="stylesheet" href="../styles/font-awesome_4.3.0.css">
+
+        <!-- Custom CSS File -->
+        <link rel="stylesheet" href="../styles/styles.css">
+
+        <!-- Word Class -->
+        <script src="../classes/Word.class.js"></script>
+
+        <!-- JS functions file -->
+        <script src="../scripts/functions.js" defer></script>
+
+        <!-- Hangman game scripting file -->
+        <script src="../scripts/hangman.js" defer></script>
+    </head>
+    
+    <body>
+
+        <!-- Audio elements -->
+        <audio id="audio-game-start"
+            src="../media/audioEffects/game-start.wav">
+        </audio>
+
+        <audio id="audio-correct-guess"
+            src="../media/audioEffects/correct-guess.wav">
+        </audio>
+
+        <audio id="audio-incorrect-guess"
+            src="../media/audioEffects/incorrect-guess.wav">
+        </audio>
+
+        <audio id="audio-guesses-warning"
+            src="../media/audioEffects/warning-sound.wav">
+        </audio>
+
+        <audio id="audio-game-lost"
+            src="../media/audioEffects/game-lost.wav">
+        </audio>
+
+        <audio id="audio-game-won"
+            src="../media/audioEffects/game-won.wav">
+        </audio>
+
+        <audio id="audio-hint-used"
+            src="../media/audioEffects/hint-used.wav">
+        </audio>
+
+
+        <!-- Alert if screen is too small -->
+        <div id="screen-width-too-small" class="pop-up-window">
+            <div class="pop-up-header width-100 flex-row justify-contents-center align-items-start">
+                <h2 class="pop-up-title">Your screen is too small!</h2>
+            </div>
+            <div class="pop-up-body flex-row width-100 my-1 justify-contents-center align-items-center">
+                <p>This application requires a screen of at least 420px.</p>
+            </div>
+        </div>  
+
+
+        <!-- Pop up window -->
+        <div id="pop-up" class="pop-up-window">
+            <div class="pop-up-header flex-row justify-contents-center align-items-start">
+                <h4 class="pop-up-title">Shhh! Correct answer in console!</h4>
+                <a href="#" id="pop-up-close-button" class="pop-up-dismiss"></a>
+            </div>
+            <p class="pop-up-body">Hi Jeff, on line <span class="bold">689</span> on my <span class="bold">functions.js</span> file, I am logging the answer in the console so you can easily test for the functionality if the correct word is guessed. In a real project that line and this pop-up window (<span class="bold">hangman.html lines 72 to 79</span>) will be deleted. Just thought of adding this to help you :)</p>
+        </div>  
+
+
+        <!-- Hint pop up window -->
+        <div id="hint-pop-up" class="pop-up-window">
+            <div class="pop-up-header flex-row justify-contents-center align-items-start">
+                <h4 class="pop-up-title">Warning!</h4>
+                <a href="#" id="hint-pop-up-close-button" class="pop-up-dismiss"></a>
+            </div>
+            <p class="pop-up-body text-center">Using a hint will cost you a guess. Would like to continue?</p>
+            <div class="hint-choices-container flex-row justify-contents-space-evenly mt-2">
+                <button name="decline" class="hint-choice btn-medium btn-danger">No</button>
+                <button name="accept" class="hint-choice btn-medium btn-success">Yes</button>
+            </div>
+        </div>  
+
+
+        <!-- Hint unavailable pop up window -->
+        <div id="hint-last-chance-pop-up" class="pop-up-window">
+            <div class="pop-up-header flex-row justify-contents-center align-items-start">
+                <h4 class="pop-up-title">Last Chance for Extra Hint!</h4>
+                <a href="#" id="hint-last-chance-pop-up-close-button" class="pop-up-dismiss"></a>
+            </div>
+            <p class="pop-up-body text-center">Using extra hint will cost you 1 guess try. You already made 5 wrong guesses, one more wrong guess will result in 6 and thus making the extra hint no longer available as 7 wrong guesses ends the game.</p>
+        </div>  
+
+
+        <!-- Actual page to display to the user -->
+        <div id="wrapper" class="grid">
+            <header class="grid">
+                <a href="../index.html" class="flex-row justify-contents-flex-start headline">
+                    <img class="logo block width-50" src="../graphics/images/navbar-logo.jpg" alt="navbar logo">
+                    <h2 class="header-title color-info">COMP2132 Project</h2>
+                </a>
+
+                <p class="navbar-menu-button btn-outline-info btn-medium">Menu</p>
+
+                <nav class="navbar">
+                    <ul class="flex-col menu-list">
+                        <li class="text-center menu-list-item" ><a class="menu-link" href="../index.html">Game Selection</a></li>
+                        <li class="text-center menu-list-item"><a class="menu-link" href="dice.html">Dice Game</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <main id="hangman-page" class="page-main grid">
+                <h3 class="author width-100 color-inverse">Avinash Seebaruth&nbsp;&#40;A00995961&#41;</h3>
+                
+                <div id="game-window" class="hangman-container flex-row">
+                    <section class="left-section flex-row width-30 mr-auto my-auto">
+                        <div class="images-container flex-col width-100">
+                            <img id="hangman-picture" class="hangman-image block width-100" src="../graphics/images/hangman/hangman-00.jpg" alt="hangman game graphic-0">
+                        </div>
+
+                    </section>
+
+                    <section id="category-selection" class="flex-col">
+                        <div class="welcome width-100 text-center"><span>Welcome to the Hangman Game!</span></div>
+
+                        <div class="category-selection-title width-100 text-center mt-2 mb-1">
+                            <span>Pick a category</span>
+                        </div>
+
+                        <div class="categories-container flex-col justify-contents-space-evenly align-items-center">
+                            <button name="capitals" onclick="newHangmanGame('capitals')"   class="categories-selection-button btn-large btn-outline-danger width-50 mb-1-5">Capitals</button>
+                            <button name="countries" onclick="newHangmanGame('countries')"  class="categories-selection-button btn-large btn-outline-primary width-50 mb-1-5">Countries</button>
+                        </div>
+
+                    </section>
+
+                    <section id="game-in-progress" class="right-section flex-col width-70 ml-auto mb-auto">
+                        <div class="score ml-auto">
+                            <div id="guess-count-container" class="guess-count flex-row justify-contents-flex-end align-items-center">
+                                <span class="score-text color-info">Wrong Guesses: </span>
+                                <span id="wrong-answer-count" class="bold color-warning"></span>
+                                <span class="score-text color-info">of </span>
+                                <span id="wrong-answer-total" class="bold color-success"></span>
+                            </div>
+
+                            <div id="wrong-guesses-container" class="wrong-guesses-container flex-row justify-contents-flex-end align-items-center color-danger">
+                                <span class="score-text color-info">Wrong Letters: </span>
+                                <span id="wrong-guesses" class="bold color-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="controllers">
+
+                            <div id="word-spaces" class="width-100 flex-row justify-contents-center"></div>
+
+                            <div id="final-guess-container" class="color-red bold text-center mt-1">Warning: Final try!</div>
+
+                            <div class="flex-col align-items-center width-100 mt-1 mb-2">
+                                <div class="color-purple mb-1">
+                                    <span class="bold">Category:&nbsp;</span>
+                                    <span id="word-category" class="italic"></span>  
+                                </div>
+                                <div class="color-warning mb-1 align-self-start">
+                                    <span class="bold">Hint:&nbsp;</span>
+                                    <span id="word-hint" class="italic"></span>    
+                                </div>
+                                <div id="additional-hint-container" class="color-primary mb-1 align-self-start">
+                                    <span id="additional-hint" class="bold italic"></span>    
+                                </div>
+                            </div>
+
+                            <button id="extra-hint-btn" class="btn-medium btn-outline-danger">Extra hint</button>
+
+                            <div id="keyboard" class="flex-row mt-2"></div>
+
+                            <div class="buttons-container mt-3 grid grid-row-1-1 grid-gap-1">
+                                <button name="new-category" class="new-game-button btn-medium btn-outline-success">New Game - New Category</button>
+                                <button name="same-category" class="new-game-button btn-medium btn-outline-purple">New Game - Same Category</button>
+                            </div>
+
+                        </div>
+                    </section>
+                    
+                    <section id="game-over" class="right-section flex-col width-70 ml-auto my-auto" style="--color:#BD1550">
+                        <p id="game-summary" class="game-summary text-center"></p>
+                        <button name="new-game" class="new-game-button width-20 btn-medium btn-outline-success">Play Again</button>
+                        <img id="winner-image" src="../graphics/images/winner/winner-1.png" alt="animated winner images">
+                        <img id="loser-image" src="../graphics/images/loser/loser-1.png" alt="animated game lost images">
+                    </section>
+
+                </div>
+            </main>
+
+            <footer class="grid grid-col-1-1">
+                <p class="copyright">Copyright&nbsp;&copy;<span class="current-year"></span></p>
+                <p>COMP2132 Web Development With JavaScript | CRN: 88278</p>
+            </footer>
+        </div>
+    </body>
+</html>

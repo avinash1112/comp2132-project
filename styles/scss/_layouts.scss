@@ -1,0 +1,154 @@
+html {
+    scroll-behavior:            smooth;
+    box-sizing:                 border-box;
+	line-height:                1.5;
+	font-size:                  16px;
+	-webkit-text-size-adjust:   100%;
+}  
+
+body {
+    display: block;
+    font-size:    16px;
+    overflow:     auto;
+	font-family:  $font-roboto;
+    background:   $color-inverse;
+}
+
+#wrapper {
+    min-height:         100vh;
+    max-height:         fit-content;
+    margin:             0 1rem;
+	font-size:          16px;
+    grid-template-rows: auto 1fr auto;  
+    transition: 1s filter linear;
+    -webkit-transition: 1s -webkit-filter linear;
+    -moz-transition: 1s -moz-filter linear;
+    -ms-transition: 1s -ms-filter linear;
+    -o-transition: 1s -o-filter linear;
+}
+
+.headline {
+    grid-area: headline;
+}
+
+.navbar-menu-button {
+    grid-area: menuButton;
+}
+
+.navbar {
+    grid-area: navbar;
+}
+
+header {
+    width:              100%;
+    margin:             1rem 0.5rem;
+    padding:            1rem;
+    background:         $color-white;
+    border-radius:      20px 20px 0 0;
+    border:             solid 2px $color-warning;
+    grid-template-areas: 
+        'headline menuButton'
+        'navbar navbar';
+}
+
+main {
+    width:      100%;
+    margin:     0 0.5rem;
+    padding:    0 1rem 2rem 1rem;
+    border:     solid 2px $color-warning;
+    background: $color-white;
+    // background: url(../graphics/images/main-bg.jpeg) no-repeat center/cover;
+}
+
+.page-main {
+    grid-template-columns:  1fr;
+    grid-template-rows:     0.2fr auto;
+}
+
+footer {
+    align-items:    center;
+    width:          100%;
+    min-height:     70px;
+    margin:         1rem 0.5rem;
+    padding:        1rem;
+    background:     $color-white;
+    border-radius:  0 0 20px 20px;
+    color:          $color-primary;
+    font-size:      0.7em;
+    border:         solid 2px $color-warning;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- HEADER ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.logo {
+    max-width:   50px;
+    height:      fit-content;
+    margin:      auto 0;
+ }
+ 
+ .header-title {
+     margin: auto 0 auto 2rem;
+     font-size: 16px;
+ }
+ 
+ .navbar-menu-button {
+     max-width:  100px;
+     margin:     auto 0 auto auto;
+     height:     fit-content;
+ }
+ 
+ .navbar {
+     background:     $color-faded;
+     border-radius:  0 0 10px 10px;
+     visibility:     hidden;
+     height:         0;
+     overflow:       hidden;
+     width:          100%;
+     clear:          both;
+     transition:     all 0.5s linear;
+ }
+ 
+ .menu-list {
+     padding: 0;
+ }
+ 
+ .menu-list-item {
+    padding:        12px 0;
+    border-bottom:  solid 1px $color-primary;
+
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+
+    &:hover {
+        background: $color-primary;
+        font-size:  1.2em;
+        cursor:     pointer;
+
+
+        .menu-link {
+            color: $color-white;
+        }
+    }
+ }
+
+
+
+ /* ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+ /* ----------------------------------------------------------------------- FOOTER ------------------------------------------------------------------------ */
+ /* ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+footer {
+    p {
+        &:first-child {
+            text-align: left;
+        }
+
+        &:last-child {
+            text-align: right;
+        }
+    }
+}

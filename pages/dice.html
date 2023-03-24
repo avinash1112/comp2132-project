@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dice | COMP 2132</title>
+        <link rel="icon" href="../graphics/favicon/dice.png">
+
+        <!-- Google Material Icons Style sheet -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Font Awesome Style Sheet (used only for popup close button) -->
+        <link rel="stylesheet" href="../styles/font-awesome_4.3.0.css">
+
+        <!-- Custom CSS File -->
+        <link rel="stylesheet" href="../styles/styles.css">
+
+        <!-- JS functions file -->
+        <script src="../scripts/functions.js" defer></script>
+
+        <!-- Dice game scripting file -->
+        <script src="../scripts/dice.js" defer></script>
+
+        <!-- DiceFace class file -->
+        <script src="../classes/DiceFace.class.js" defer></script>
+
+        <!-- Dice class file -->
+        <script src="../classes/Dice.class.js" defer></script>
+
+    </head>
+    
+    <body>
+
+        <!-- Alert if screen is too small -->
+        <div id="screen-width-too-small" class="pop-up-window">
+            <div class="pop-up-header width-100 flex-row justify-contents-center align-items-start">
+                <h2 class="pop-up-title">Your screen is too small!</h2>
+            </div>
+            <div class="pop-up-body flex-row width-100 my-1 justify-contents-center align-items-center">
+                <p>This application requires a screen of at least 420px.</p>
+            </div>
+        </div>  
+
+        <!-- Pop up window -->
+        <div id="pop-up" class="pop-up-window">
+            <div class="pop-up-header width-100 flex-row justify-contents-center align-items-start">
+                <h2 class="pop-up-title">Pick a color theme</h2>
+            </div>
+            <div class="dice-color-choice-body pop-up-body flex-row width-100 my-1 justify-contents-center align-items-center">
+                <button id="color-choice-red" name="btn-color-choice" class="dice-color-choice-red width-40 mx-1">RED</button>
+                <button id="color-choice-blue" name="btn-color-choice" class="dice-color-choice-blue width-40 mx-1">BLUE</button>
+            </div>
+        </div>  
+
+        <div id="wrapper" class="grid">
+            <header class="grid">
+                <a href="../index.html" class="flex-row justify-contents-flex-start headline">
+                    <img class="logo block width-50" src="../graphics/images/navbar-logo.jpg" alt="navbar logo">
+                    <h2 class="header-title color-info">COMP2132 Project</h2>
+                </a>
+
+                <p class="navbar-menu-button btn-outline-info btn-medium">Menu</p>
+
+                <nav class="navbar">
+                    <ul class="flex-col menu-list">
+                        <li class="text-center menu-list-item" ><a class="menu-link" href="../index.html">Game Selection</a></li>
+                        <li class="text-center menu-list-item"><a class="menu-link" href="hangman.html">Hangman Game</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <main id="dice-page" class="page-main grid">
+                <h3 class="author width-100 color-inverse">Avinash Seebaruth&nbsp;&#40;A00995961&#41;</h3>
+                <div class="welcome width-100 text-center mb-2"><span>Welcome to the Dice Game!</span></div>
+
+                <section id="game-window" class="main-container grid grid-gap-2">
+
+                    <div class="left-window game-window flex-col justify-contents-space-evenly">
+                        <span class="name bold text-center width-100 block">Player (You)</span>
+
+                        <div id="player-dices-container" class="dice-img-container flex-row justify-contents-space-evenly"></div>
+
+                        <ul id="score-ul" class="score"></ul>
+                    </div>
+
+                    <div class="right-window game-window flex-col justify-contents-space-evenly">
+                        <span class="name bold text-center width-100 block">Computer</span>
+
+                        <div id="computer-dices-container" class="dice-img-container flex-row justify-contents-space-evenly"></div>
+
+                        <ul class="score"></ul>
+                    </div>
+
+                    <div id="game-controllers" class="game-controllers flex-col width-100 mt-2 mb-2 justify-contents-center">
+                        <button id="roll-dice" class="btn-large btn-purple width-70">Roll Dices</button>
+                        <button id="new-game" class="new-game-btn btn-large btn-warning width-80">New Game</button>
+                    </div>
+
+                    <div id="game-summary" class="flex-col align-items-center">
+                        <img id="animated-images" src="" alt="">
+                        <button id="new-game-2" class="new-game-btn btn-large btn-warning">New Game</button>
+                    </div>
+                    
+                </section>
+
+                <section id="game-rules">
+                    <h2 class="my-0 block text-center">GAME RULES</h2>
+                    <div class="rules flex-col">
+                        <p>The game is played in 3 rounds.</p>
+                        <p>In each round, you and the computer will roll a pair of dices each.</p>
+                        <p>The score after each round is added up together and the player with the highest after the 3 rounds wins the game.</p>
+                        <p>The scoring for the game works as follows:</p>
+                        <ul>
+                            <li>If any of the players two dice comes up as a 1 then the score for that round for the player is 0. eg: if the player rolls a 6 and 1, they get a score of 0</li>
+                            <li>If the player rolls a pair of the same numbers then the players score is the total of the two dice times 2. eg: if he player rolls 5 and 5, they get a score of (5+5)*2=20</li>
+                            <li>If the player rolls any other combination of dice other than the ones mentioned above then the players score is the total value of the two dice, eg: player rolls a 3 and 2, player gets a score of 3+2=5</li>
+                        </ul>
+                    </div>
+                </section>
+            </main>
+
+            <footer class="grid grid-col-1-1">
+                <p class="copyright">Copyright&nbsp;&copy;<span class="current-year"></span></p>
+                <p>COMP2132 Web Development With JavaScript | CRN: 88278</p>
+            </footer>
+        </div>
+
+        <audio id="game-start" src="../media/audioEffects/game-start.wav"></audio>
+        <audio id="rolling-dice" src="../media/audioEffects/rolling-dice.wav"></audio>
+        <audio id="round-won" src="../media/audioEffects/round-won.wav"></audio>
+        <audio id="round-lost" src="../media/audioEffects/round-lost.wav"></audio>
+        <audio id="round-tied" src="../media/audioEffects/round-tied.wav"></audio>
+        <audio id="last-round" src="../media/audioEffects/warning-sound.wav"></audio>
+        <audio id="game-won" src="../media/audioEffects/game-won.wav"></audio>
+        <audio id="game-lost" src="../media/audioEffects/game-lost.wav"></audio>
+        <audio id="game-tied" src="../media/audioEffects/game-tied.wav"></audio>
+        <audio id="bonus-score" src="../media/audioEffects/bonus-score.wav"></audio>
+
+    </body>
+</html>

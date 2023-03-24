@@ -1,0 +1,423 @@
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- FILE IMPORTS --------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@import 'config';
+@import 'htmlNormalization';
+@import 'utilities';
+@import 'buttons';
+@import 'layouts';
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------- INDEX.HTML ---------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.game-selection-container {
+    grid-template-rows:     0.1fr 1fr;
+    grid-template-columns:  auto;
+}
+
+.game-tile {
+    max-width:      300px;
+    padding:        1rem;
+    border-radius:  20px;
+    box-shadow:     0 1.2em 2.4em rgba(111, 85, 0, 0.25);
+    transition:     box-shadow 1s, background 1s;
+    transition:     all 1s;
+    background:     $color-purple;
+}
+
+.game-tile:hover {
+    background: $color-primary;
+    box-shadow: 0 1.2em 2.4em $color-primary;
+}
+
+.game-title {
+    margin:     0 auto 2rem auto;
+    color:      $color-faded;
+    font-size:  13px;
+}
+
+.games-container {
+    grid-gap:               2rem;
+    grid-template-rows:     1fr 1fr;
+    grid-template-columns:  1fr;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- DICE.HTML ---------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#screen-width-too-small {
+    opacity: 1;
+
+    .pop-up-header {
+        font-size: 0.8em;
+        
+        .pop-up-title {
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+
+    .pop-up-body {
+        font-size: 0.75em;
+    }
+    
+}
+
+#pop-up {
+
+    .pop-up-header {
+
+        .pop-up-title {
+            width: 100%;
+            max-width: 100%;
+        }
+    }    
+
+    .dice-color-choice-red,
+    .dice-color-choice-blue {
+        min-height: 60px;
+        font-size: 20px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .dice-color-choice-red {
+        color: $color-red;
+        border: solid 2px $color-red;
+        box-shadow: 0.1px 0.1px 10px 2px $color-red;
+
+        &:hover {
+            background-color: $color-red;
+            color: $color-white;
+        }
+    }
+
+    .dice-color-choice-blue {
+        color: $color-blue;
+        border: solid 2px $color-blue;
+        box-shadow: 0.1px 0.1px 10px 2px $color-blue;
+
+        &:hover {
+            background-color: $color-blue;
+            color: $color-white;
+        }
+    }
+
+}
+
+
+#dice-page {
+    padding: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr auto 0.2fr auto;
+
+
+    .main-container {
+        margin: 1rem;
+        grid-template-areas: 
+            'leftGame rightGame'
+            'gameControllers gameControllers';
+
+
+        .left-window {
+            grid-area: leftGame;
+        }
+        
+        .right-window {
+            grid-area: rightGame;
+        }
+        
+        
+        .game-window {
+            padding: 1rem;
+            border-radius: 15px;
+
+            
+            .dice-img-container {
+                height: 75px;
+            }
+
+
+            .score {
+                padding-left: 10px;
+                padding-top: 1rem;
+                margin-top: 1rem;
+                border-top-style: double;
+                border-top-width: 3px;
+                font-size: 12px;
+
+                li {
+                    list-style: disc;
+                    padding: 10px 0;
+                    border-bottom: dotted 1px $color-inverse;
+
+                    &:first-child {
+                        border-top: dotted 1px $color-inverse;
+                    }
+
+                }
+            }
+
+            .name {
+                text-transform: uppercase;
+                font-size: 18px;
+            }
+            
+            img {
+                width: 15vw;
+                max-width: 100px;
+                max-height: 100%;
+            }
+
+        }
+
+        .game-controllers {
+            grid-area: gameControllers;
+            position: relative;  
+            
+            button {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                max-width: 200px;
+            }
+        }       
+
+        #game-summary {
+            grid-area: gameControllers;
+
+            table {
+                border-collapse: collapse;
+                margin: 2rem auto;
+                min-width: 370px;
+                width: 50vw;
+
+                th, td {
+                    border: solid 1px black;
+                    width: 30%;
+                    text-align: center;
+                }
+
+                thead {
+                    
+                    tr {
+                        &:first-child {
+                            background-color: $color-yellow;
+                        }
+                    }
+                }
+
+                tbody {
+
+                    tr {
+                        &:nth-child(2) {
+                            background-color: $color-faded-blue;
+                        }
+                    }
+                    
+                    tr {
+                        &:nth-child(4) {
+                            background-color: $color-faded-blue;
+                        }
+                    }
+                }
+                
+            }
+
+            img {
+                display: block;
+                margin: 2rem auto;
+                max-width: 200px;
+            }   
+
+            .dice-values {
+                font-size: 0.8em;
+            }
+
+            .table-total-value {
+                font-size: 1.1em;
+            }
+        }
+    }
+
+    #game-rules {
+        border: double 4px $color-warning;
+        padding: 1rem;
+        border-radius: 15px;
+        background-color: lighten($color-warning, 30%);
+
+        .rules {
+            color: $color-inverse;
+            font-size: 0.8em;
+            row-gap: 10px;
+
+            ul {
+                padding-left: 1rem;
+                
+                li {
+                    list-style: circle;
+                    margin: 8px 0;
+
+                    &:first-child {
+                        margin-top: 0;
+                    }
+                    
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- HANGMAN.HTML --------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#hangman-page {
+
+    #game-window {
+        
+        .hangman-image {
+            max-width: 180px;
+        }
+
+        #category-selection {
+            opacity: 0;
+            flex: 1;
+            justify-content: flex-start;
+
+            .category-selection-title {
+                font-family: Arial, sans-serif;
+                font-size: 20px;
+                font-weight: bold;
+                position: relative;
+                z-index: 1;
+                display: inline-block;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+
+                span {
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    background: $color-info;
+                    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…BoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+                    background: -moz-radial-gradient(center, ellipse cover, $color-info 0%, $color-success 100%);
+                    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, $color-info), color-stop(100%, $color-success));
+                    background: -webkit-radial-gradient(center, ellipse cover, $color-info 0%, $color-success 100%);
+                    background: -o-radial-gradient(center, ellipse cover, $color-info 0%, $color-success 100%);
+                    background: -ms-radial-gradient(center, ellipse cover, $color-info 0%, $color-success 100%);
+                    background: radial-gradient(ellipse at center, $color-info 0%, $color-success 100%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+        }
+
+        .guess-count {
+            span {
+                margin-right: 7px;
+            }
+        }
+
+        .score-text {
+            font-size: 16px;
+        }
+
+        .wrong-letter-guess {
+            margin: 0 5px;
+        }
+        
+        #word-spaces {
+            margin: 2rem 0;
+            flex-wrap: wrap;
+            row-gap: 1rem;
+        }
+
+        .dashes {
+            margin:             0 5px;
+            padding:            4px 8px;
+            border-radius:      5px;
+            font-weight:        bold;
+            color:              $color-inverse;
+            background-color:   $color-dark-grey;
+        }
+
+        .correct-letter {
+            margin:             0 5px;
+            padding:            4px 8px;
+            border-radius:      5px;
+            font-weight:        bold;
+            color:              $color-success;
+            transition:         background-color 1s, color 2s;
+            background-color:   lighten($color-success, 30%);
+        }
+
+        #keyboard {
+            flex-wrap: wrap;
+
+            .keyboard-letter {
+                margin: 10px;
+                width:  50px;
+            }
+
+            .keyboard-letter.space-bar-key {
+                font-size: 10px;
+            }
+
+            .game-summary {
+                margin-bottom: 2rem;
+            }
+        
+        }
+
+        .controllers {
+
+            .buttons-container {
+
+                button {
+                    font-size: 0.7em !important;
+                }
+            }
+        }
+
+        #game-over {
+            
+            button {
+                margin-top: 2rem !important;
+                margin-bottom: 1rem !important;
+            }
+
+            #word-reveal {
+                font-weight:    bold;
+                text-transform: capitalize;
+            }
+
+            img {
+                display: block;
+                margin: 2rem auto 0 auto;
+                max-width: 200px;
+            }       
+
+        }
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- MEDIA QUERIES --------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@import 'mediumScreen';
+@import 'largeScreen';
+@import 'extraLargeScreen';

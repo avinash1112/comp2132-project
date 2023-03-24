@@ -1,0 +1,2234 @@
+[
+    {
+        "name": "Afghanistan",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 38,928,346 and a land area of 652,860.",
+        "hint2": "The capital of this country is Kabul."
+    },
+    {
+        "name": "Albania",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 2,877,797 and a land area of 27,400.",
+        "hint2": "The capital of this country is Tirana."
+    },
+    {
+        "name": "Algeria",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 43,851,044 and a land area of 2,381,740.",
+        "hint2": "The capital of this country is Algiers."
+    },
+    {
+        "name": "Andorra",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 77,265 and a land area of 470.",
+        "hint2": "The capital of this country is Andorra la Vella."
+    },
+    {
+        "name": "Angola",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 32,866,272 and a land area of 1,246,700.",
+        "hint2": "The capital of this country is Luanda."
+    },
+    {
+        "name": "Antigua And Barbuda",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 97,929 and a land area of 440.",
+        "hint2": "The capital of this country is Saint John's."
+    },
+    {
+        "name": "Argentina",
+        "category": "countries",
+        "hint1": "Part of the South American continent with a population of 45,195,774 and a land area of 2,736,690.",
+        "hint2": "The capital of this country is Buenos Aires."
+    },
+    {
+        "name": "Armenia",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 2,963,243 and a land area of 28,470.",
+        "hint2": "The capital of this country is Yerevan."
+    },
+    {
+        "name": "Australia",
+        "category": "countries",
+        "hint1": "Part of the Ocenia continent with a population of 25,499,884 and a land area of 7,682,300.",
+        "hint2": "The capital of this country is Canberra."
+    },
+    {
+        "name": "Austria",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 9,006,398 and a land area of 82,409.",
+        "hint2": "The capital of this country is Vienna."
+    },
+    {
+        "name": "Azerbaijan",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 10,139,177 and a land area of 82,658.",
+        "hint2": "The capital of this country is Baku."
+    },
+    {
+        "name": "Bahamas",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 393,244 and a land area of 10,010.",
+        "hint2": "The capital of this country is Nassau."
+    },
+    {
+        "name": "Bahrain",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 1,701,575 and a land area of 760.",
+        "hint2": "The capital of this country is Manama."
+    },
+    {
+        "name": "Bangladesh",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 164,689,383 and a land area of 130,170.",
+        "hint2": "The capital of this country is Dhaka."
+    },
+    {
+        "name": "Barbados",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 287,375 and a land area of 430.",
+        "hint2": "The capital of this country is Bridgetown."
+    },
+    {
+        "name": "Belarus",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 9,449,323 and a land area of 202,910.",
+        "hint2": "The capital of this country is Minsk."
+    },
+    {
+        "name": "Belgium",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 11,589,623 and a land area of 30,280.",
+        "hint2": "The capital of this country is Brussels."
+    },
+    {
+        "name": "Belize",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 397,628 and a land area of 22,810.",
+        "hint2": "The capital of this country is Belmopan."
+    },
+    {
+        "name": "Benin",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 12,123,200 and a land area of 112,760.",
+        "hint2": "The capital of this country is Porto-Novo."
+    },
+    {
+        "name": "Bhutan",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 771,608 and a land area of 38,117.",
+        "hint2": "The capital of this country is Thimphu."
+    },
+    {
+        "name": "Bolivia",
+        "category": "countries",
+        "hint1": "Part of the South American continent with a population of 11,673,021 and a land area of 1,083,300.",
+        "hint2": "The capital of this country is La Paz"
+    },
+    {
+        "name": "Bosnia And Herzegovina",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 3,280,819 and a land area of 51,000.",
+        "hint2": "The capital of this country is Sarajevo."
+    },
+    {
+        "name": "Botswana",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 2,351,627 and a land area of 566,730.",
+        "hint2": "The capital of this country is Gaborone."
+    },
+    {
+        "name": "Brazil",
+        "category": "countries",
+        "hint1": "Part of the South American continent with a population of 212,559,417 and a land area of 8,358,140.",
+        "hint2": "The capital of this country is Brasilia."
+    },
+    {
+        "name": "Brunei",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 437,479 and a land area of 5,270.",
+        "hint2": "The capital of this country is Bandar Seri Begawan."
+    },
+    {
+        "name": "Bulgaria",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 6,948,445 and a land area of 108,560.",
+        "hint2": "The capital of this country is Sofia."
+    },
+    {
+        "name": "Burkina Faso",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 20,903,273 and a land area of 273,600.",
+        "hint2": "The capital of this country is Ouagadougou."
+    },
+    {
+        "name": "Burundi",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 11,890,784 and a land area of 25,680.",
+        "hint2": "The capital of this country is Gitega."
+    },
+    {
+        "name": "Cambodia",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 16,718,965 and a land area of 176,520.",
+        "hint2": "The capital of this country is Phnom Penh."
+    },
+    {
+        "name": "Cameroon",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 26,545,863 and a land area of 472,710.",
+        "hint2": "The capital of this country is Yaounde."
+    },
+    {
+        "name": "Canada",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 37,742,154 and a land area of 9,093,510.",
+        "hint2": "The capital of this country is Ottawa."
+    },
+    {
+        "name": "Central African Republic",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 4,829,767 and a land area of 622,980.",
+        "hint2": "The capital of this country is Bangui."
+    },
+    {
+        "name": "Chad",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 16,425,864 and a land area of 1,259,200.",
+        "hint2": "The capital of this country is N'Djamena."
+    },
+    {
+        "name": "Chile",
+        "category": "countries",
+        "hint1": "Part of the South American continent with a population of 19,116,201 and a land area of 743,532.",
+        "hint2": "The capital of this country is Santiago."
+    },
+    {
+        "name": "China",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 1439,323,776 and a land area of 9,388,211.",
+        "hint2": "The capital of this country is Beijing."
+    },
+    {
+        "name": "Colombia",
+        "category": "countries",
+        "hint1": "Part of the South American continent with a population of 50,882,891 and a land area of 1,109,500.",
+        "hint2": "The capital of this country is Bogota."
+    },
+    {
+        "name": "Comoros",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 869,601 and a land area of 1,861.",
+        "hint2": "The capital of this country is Moroni."
+    },
+    {
+        "name": "Costa Rica",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 5,094,118 and a land area of 51,060.",
+        "hint2": "The capital of this country is San Jose."
+    },
+    {
+        "name": "Croatia",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 4,105,267 and a land area of 55,960.",
+        "hint2": "The capital of this country is Zagreb."
+    },
+    {
+        "name": "Cuba",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 11,326,616 and a land area of 106,440.",
+        "hint2": "The capital of this country is Havana."
+    },
+    {
+        "name": "Cyprus",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 1,207,359 and a land area of 9,240.",
+        "hint2": "The capital of this country is Nicosia."
+    },
+    {
+        "name": "Czechia",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 10,708,981 and a land area of 77,240.",
+        "hint2": "The capital of this country is Prague."
+    },
+    {
+        "name": "Denmark",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 5,792,202 and a land area of 42,430.",
+        "hint2": "The capital of this country is Copenhagen."
+    },
+    {
+        "name": "Djibouti",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 988,000 and a land area of 23,180.",
+        "hint2": "The capital of this country is Djibouti."
+    },
+    {
+        "name": "Dominica",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 71,986 and a land area of 750.",
+        "hint2": "The capital of this country is Roseau."
+    },
+    {
+        "name": "Dominican Republic",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 10,847,910 and a land area of 48,320.",
+        "hint2": "The capital of this country is Santo Domingo."
+    },
+    {
+        "name": "Ecuador",
+        "category": "countries",
+        "hint1": "Part of the South American continent with a population of 17,643,054 and a land area of 248,360.",
+        "hint2": "The capital of this country is Quito."
+    },
+    {
+        "name": "Egypt",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 102,334,404 and a land area of 995,450.",
+        "hint2": "The capital of this country is Cairo."
+    },
+    {
+        "name": "El Salvador",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 6,486,205 and a land area of 20,720.",
+        "hint2": "The capital of this country is San Salvador."
+    },
+    {
+        "name": "Equatorial Guinea",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 1,402,985 and a land area of 28,050.",
+        "hint2": "The capital of this country is Malabo (de jure)"
+    },
+    {
+        "name": "Eritrea",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 3,546,421 and a land area of 101,000.",
+        "hint2": "The capital of this country is Asmara."
+    },
+    {
+        "name": "Estonia",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 1,326,535 and a land area of 42,390.",
+        "hint2": "The capital of this country is Tallinn."
+    },
+    {
+        "name": "Ethiopia",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 114,963,588 and a land area of 1,000,000.",
+        "hint2": "The capital of this country is Addis Ababa."
+    },
+    {
+        "name": "Fiji",
+        "category": "countries",
+        "hint1": "Part of the Ocenia continent with a population of 896,445 and a land area of 18,270.",
+        "hint2": "The capital of this country is Suva."
+    },
+    {
+        "name": "Finland",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 5,540,720 and a land area of 303,890.",
+        "hint2": "The capital of this country is Helsinki."
+    },
+    {
+        "name": "France",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 65,273,511 and a land area of 547,557.",
+        "hint2": "The capital of this country is Paris."
+    },
+    {
+        "name": "Gabon",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 2,225,734 and a land area of 257,670.",
+        "hint2": "The capital of this country is Libreville."
+    },
+    {
+        "name": "Gambia",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 2,416,668 and a land area of 10,120.",
+        "hint2": "The capital of this country is Banjul."
+    },
+    {
+        "name": "Georgia",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 3,989,167 and a land area of 69,490.",
+        "hint2": "The capital of this country is Tbilisi."
+    },
+    {
+        "name": "Germany",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 83,783,942 and a land area of 348,560.",
+        "hint2": "The capital of this country is Berlin."
+    },
+    {
+        "name": "Ghana",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 31,072,940 and a land area of 227,540.",
+        "hint2": "The capital of this country is Accra."
+    },
+    {
+        "name": "Greece",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 10,423,054 and a land area of 128,900.",
+        "hint2": "The capital of this country is Athens."
+    },
+    {
+        "name": "Grenada",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 112,523 and a land area of 340.",
+        "hint2": "The capital of this country is Saint George's."
+    },
+    {
+        "name": "Guatemala",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 17,915,568 and a land area of 107,160.",
+        "hint2": "The capital of this country is Guatemala City."
+    },
+    {
+        "name": "Guinea",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 13,132,795 and a land area of 245,720.",
+        "hint2": "The capital of this country is Conakry."
+    },
+    {
+        "name": "Guinea-Bissau",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 1,968,001 and a land area of 28,120.",
+        "hint2": "The capital of this country is Bissau."
+    },
+    {
+        "name": "Guyana",
+        "category": "countries",
+        "hint1": "Part of the South American continent with a population of 786,552 and a land area of 196,850.",
+        "hint2": "The capital of this country is Georgetown."
+    },
+    {
+        "name": "Haiti",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 11,402,528 and a land area of 27,560.",
+        "hint2": "The capital of this country is Port-au-Prince."
+    },
+    {
+        "name": "Honduras",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 9,904,607 and a land area of 111,890.",
+        "hint2": "The capital of this country is Tegucigalpa."
+    },
+    {
+        "name": "Hungary",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 9,660,351 and a land area of 90,530.",
+        "hint2": "The capital of this country is Budapest."
+    },
+    {
+        "name": "Iceland",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 341,243 and a land area of 100,250.",
+        "hint2": "The capital of this country is Reykjavik."
+    },
+    {
+        "name": "India",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 1380,004,385 and a land area of 2,973,190.",
+        "hint2": "The capital of this country is New Delhi."
+    },
+    {
+        "name": "Indonesia",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 273,523,615 and a land area of 1,811,570.",
+        "hint2": "The capital of this country is Jakarta."
+    },
+    {
+        "name": "Iran",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 83,992,949 and a land area of 1,628,550.",
+        "hint2": "The capital of this country is Tehran."
+    },
+    {
+        "name": "Iraq",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 40,222,493 and a land area of 434,320.",
+        "hint2": "The capital of this country is Baghdad."
+    },
+    {
+        "name": "Ireland",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 4,937,786 and a land area of 68,890.",
+        "hint2": "The capital of this country is Dublin."
+    },
+    {
+        "name": "Israel",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 8,655,535 and a land area of 21,640.",
+        "hint2": "The capital of this country is Jerusalem."
+    },
+    {
+        "name": "Italy",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 60,461,826 and a land area of 294,140.",
+        "hint2": "The capital of this country is Rome."
+    },
+    {
+        "name": "Ivory Coast",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 26,378,274 and a land area of 318,000.",
+        "hint2": "The capital of this country is Yamoussoukro."
+    },
+    {
+        "name": "Jamaica",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 2,961,167 and a land area of 10,830.",
+        "hint2": "The capital of this country is Kingston."
+    },
+    {
+        "name": "Japan",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 126,476,461 and a land area of 364,555.",
+        "hint2": "The capital of this country is Tokyo."
+    },
+    {
+        "name": "Jordan",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 10,203,134 and a land area of 88,780.",
+        "hint2": "The capital of this country is Amman."
+    },
+    {
+        "name": "Kazakhstan",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 18,776,707 and a land area of 2,699,700.",
+        "hint2": "The capital of this country is Nur-Sultan."
+    },
+    {
+        "name": "Kenya",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 53,771,296 and a land area of 569,140.",
+        "hint2": "The capital of this country is Nairobi."
+    },
+    {
+        "name": "Kiribati",
+        "category": "countries",
+        "hint1": "Part of the Ocenia continent with a population of 119,449 and a land area of 810.",
+        "hint2": "The capital of this country is Tarawa."
+    },
+    {
+        "name": "Kuwait",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 4,270,571 and a land area of 17,820.",
+        "hint2": "The capital of this country is Kuwait City."
+    },
+    {
+        "name": "Kyrgyzstan",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 6,524,195 and a land area of 191,800.",
+        "hint2": "The capital of this country is Bishkek."
+    },
+    {
+        "name": "Laos",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 7,275,560 and a land area of 230,800.",
+        "hint2": "The capital of this country is Vientiane."
+    },
+    {
+        "name": "Latvia",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 1,886,198 and a land area of 62,200.",
+        "hint2": "The capital of this country is Riga."
+    },
+    {
+        "name": "Lebanon",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 6,825,445 and a land area of 10,230.",
+        "hint2": "The capital of this country is Beirut."
+    },
+    {
+        "name": "Lesotho",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 2,142,249 and a land area of 30,360.",
+        "hint2": "The capital of this country is Maseru."
+    },
+    {
+        "name": "Liberia",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 5,057,681 and a land area of 96,320.",
+        "hint2": "The capital of this country is Monrovia."
+    },
+    {
+        "name": "Libya",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 6,871,292 and a land area of 1,759,540.",
+        "hint2": "The capital of this country is Tripoli."
+    },
+    {
+        "name": "Liechtenstein",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 38,128 and a land area of 160.",
+        "hint2": "The capital of this country is Vaduz."
+    },
+    {
+        "name": "Lithuania",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 2,722,289 and a land area of 62,674.",
+        "hint2": "The capital of this country is Vilnius."
+    },
+    {
+        "name": "Luxembourg",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 625,978 and a land area of 2,590.",
+        "hint2": "The capital of this country is Luxembourg."
+    },
+    {
+        "name": "Madagascar",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 27,691,018 and a land area of 581,795.",
+        "hint2": "The capital of this country is Antananarivo."
+    },
+    {
+        "name": "Malawi",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 19,129,952 and a land area of 94,280.",
+        "hint2": "The capital of this country is Lilongwe."
+    },
+    {
+        "name": "Malaysia",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 32,365,999 and a land area of 328,550.",
+        "hint2": "The capital of this country is Kuala Lumpur."
+    },
+    {
+        "name": "Maldives",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 540,544 and a land area of 300.",
+        "hint2": "The capital of this country is Male."
+    },
+    {
+        "name": "Mali",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 20,250,833 and a land area of 1,220,190.",
+        "hint2": "The capital of this country is Bamako."
+    },
+    {
+        "name": "Malta",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 441,543 and a land area of 320.",
+        "hint2": "The capital of this country is Valletta."
+    },
+    {
+        "name": "Marshall Islands",
+        "category": "countries",
+        "hint1": "Part of the Ocenia continent with a population of 59,190 and a land area of 180.",
+        "hint2": "The capital of this country is Majuro."
+    },
+    {
+        "name": "Mauritania",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 4,649,658 and a land area of 1,030,700.",
+        "hint2": "The capital of this country is Nouakchott."
+    },
+    {
+        "name": "Mauritius",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 1,271,768 and a land area of 2,030.",
+        "hint2": "The capital of this country is Port Louis."
+    },
+    {
+        "name": "Mexico",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 128,932,753 and a land area of 1,943,950.",
+        "hint2": "The capital of this country is Mexico City."
+    },
+    {
+        "name": "Micronesia",
+        "category": "countries",
+        "hint1": "Part of the Ocenia continent with a population of 548,914 and a land area of 700.",
+        "hint2": "The capital of this country is Palikir."
+    },
+    {
+        "name": "Moldova",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 4,033,963 and a land area of 32,850.",
+        "hint2": "The capital of this country is Chisinau."
+    },
+    {
+        "name": "Monaco",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 39,242 and a land area of 1.",
+        "hint2": "The capital of this country is Monaco."
+    },
+    {
+        "name": "Mongolia",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 3,278,290 and a land area of 1,553,560.",
+        "hint2": "The capital of this country is Ulaanbaatar."
+    },
+    {
+        "name": "Montenegro",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 628,066 and a land area of 13,450.",
+        "hint2": "The capital of this country is Podgorica."
+    },
+    {
+        "name": "Morocco",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 36,910,560 and a land area of 446,300.",
+        "hint2": "The capital of this country is Rabat."
+    },
+    {
+        "name": "Mozambique",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 31,255,435 and a land area of 786,380.",
+        "hint2": "The capital of this country is Maputo."
+    },
+    {
+        "name": "Namibia",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 2,540,905 and a land area of 823,290.",
+        "hint2": "The capital of this country is Windhoek."
+    },
+    {
+        "name": "Nauru",
+        "category": "countries",
+        "hint1": "Part of the Ocenia continent with a population of 10,824 and a land area of 20.",
+        "hint2": "The capital of this country is Yaren District (de facto)."
+    },
+    {
+        "name": "Nepal",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 29,136,808 and a land area of 143,350.",
+        "hint2": "The capital of this country is Kathmandu."
+    },
+    {
+        "name": "Netherlands",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 17,134,872 and a land area of 33,720.",
+        "hint2": "The capital of this country is Amsterdam."
+    },
+    {
+        "name": "New Zealand",
+        "category": "countries",
+        "hint1": "Part of the Ocenia continent with a population of 4,822,233 and a land area of 263,310.",
+        "hint2": "The capital of this country is Wellington."
+    },
+    {
+        "name": "Nicaragua",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 6,624,554 and a land area of 120,340.",
+        "hint2": "The capital of this country is Managua."
+    },
+    {
+        "name": "Niger",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 24,206,644 and a land area of 1,266,700.",
+        "hint2": "The capital of this country is Niamey."
+    },
+    {
+        "name": "Nigeria",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 206,139,589 and a land area of 910,770.",
+        "hint2": "The capital of this country is Abuja."
+    },
+    {
+        "name": "North Korea",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 25,778,816 and a land area of 120,410.",
+        "hint2": "The capital of this country is Pyongyang."
+    },
+    {
+        "name": "Norway",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 5,421,241 and a land area of 365,268.",
+        "hint2": "The capital of this country is Oslo."
+    },
+    {
+        "name": "Oman",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 5,106,626 and a land area of 309,500.",
+        "hint2": "The capital of this country is Muscat."
+    },
+    {
+        "name": "Pakistan",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 220,892,340 and a land area of 770,880.",
+        "hint2": "The capital of this country is Islamabad."
+    },
+    {
+        "name": "Palau",
+        "category": "countries",
+        "hint1": "Part of the Ocenia continent with a population of 18,094 and a land area of 460.",
+        "hint2": "The capital of this country is Ngerulmud."
+    },
+    {
+        "name": "Palestine",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 5,101,414 and a land area of 6,020.",
+        "hint2": "The capital of this country is Jerusalem."
+    },
+    {
+        "name": "Panama",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 4,314,767 and a land area of 74,340.",
+        "hint2": "The capital of this country is Panama City."
+    },
+    {
+        "name": "Papua New Guinea",
+        "category": "countries",
+        "hint1": "Part of the Ocenia continent with a population of 8,947,024 and a land area of 452,860.",
+        "hint2": "The capital of this country is Port Moresby."
+    },
+    {
+        "name": "Paraguay",
+        "category": "countries",
+        "hint1": "Part of the South American continent with a population of 7,132,538 and a land area of 397,300.",
+        "hint2": "The capital of this country is Asuncion."
+    },
+    {
+        "name": "Peru",
+        "category": "countries",
+        "hint1": "Part of the South American continent with a population of 32,971,854 and a land area of 1,280,000.",
+        "hint2": "The capital of this country is Lima."
+    },
+    {
+        "name": "Philippines",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 109,581,078 and a land area of 298,170.",
+        "hint2": "The capital of this country is Manila."
+    },
+    {
+        "name": "Poland",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 37,846,611 and a land area of 306,230.",
+        "hint2": "The capital of this country is Warsaw."
+    },
+    {
+        "name": "Portugal",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 10,196,709 and a land area of 91,590.",
+        "hint2": "The capital of this country is Lisbon."
+    },
+    {
+        "name": "Qatar",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 2,881,053 and a land area of 11,610.",
+        "hint2": "The capital of this country is Doha."
+    },
+    {
+        "name": "Romania",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 19,237,691 and a land area of 230,170.",
+        "hint2": "The capital of this country is Bucharest."
+    },
+    {
+        "name": "Russia",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 145,934,462 and a land area of 16,376,870.",
+        "hint2": "The capital of this country is Moscow."
+    },
+    {
+        "name": "Rwanda",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 12,952,218 and a land area of 24,670.",
+        "hint2": "The capital of this country is Kigali."
+    },
+    {
+        "name": "Saint Kitts And Nevis",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 53,199 and a land area of 260.",
+        "hint2": "The capital of this country is Basseterre."
+    },
+    {
+        "name": "Saint Lucia",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 183,627 and a land area of 610.",
+        "hint2": "The capital of this country is Castries."
+    },
+    {
+        "name": "Saint Vincent And The Grenadines",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 110,940 and a land area of 390.",
+        "hint2": "The capital of this country is Kingstown."
+    },
+    {
+        "name": "Samoa",
+        "category": "countries",
+        "hint1": "Part of the Ocenia continent with a population of 198,414 and a land area of 2,830.",
+        "hint2": "The capital of this country is Apia."
+    },
+    {
+        "name": "San Marino",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 33,931 and a land area of 60.",
+        "hint2": "The capital of this country is San Marino."
+    },
+    {
+        "name": "Sao Tome And Principe",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 219,159 and a land area of 960.",
+        "hint2": "The capital of this country is Sao Tome."
+    },
+    {
+        "name": "Saudi Arabia",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 34,813,871 and a land area of 2,149,690.",
+        "hint2": "The capital of this country is Riyadh."
+    },
+    {
+        "name": "Senegal",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 16,743,927 and a land area of 192,530.",
+        "hint2": "The capital of this country is Dakar."
+    },
+    {
+        "name": "Serbia",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 8,737,371 and a land area of 87,460.",
+        "hint2": "The capital of this country is Belgrade."
+    },
+    {
+        "name": "Seychelles",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 98,347 and a land area of 460.",
+        "hint2": "The capital of this country is Victoria."
+    },
+    {
+        "name": "Sierra Leone",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 7,976,983 and a land area of 72,180.",
+        "hint2": "The capital of this country is Freetown."
+    },
+    {
+        "name": "Singapore",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 5,850,342 and a land area of 700.",
+        "hint2": "The capital of this country is Singapore."
+    },
+    {
+        "name": "Slovakia",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 5,459,642 and a land area of 48,088.",
+        "hint2": "The capital of this country is Bratislava."
+    },
+    {
+        "name": "Slovenia",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 2,078,938 and a land area of 20,140.",
+        "hint2": "The capital of this country is Ljubljana."
+    },
+    {
+        "name": "Solomon Islands",
+        "category": "countries",
+        "hint1": "Part of the Ocenia continent with a population of 686,884 and a land area of 27,990.",
+        "hint2": "The capital of this country is Honiara."
+    },
+    {
+        "name": "Somalia",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 15,893,222 and a land area of 627,340.",
+        "hint2": "The capital of this country is Mogadishu."
+    },
+    {
+        "name": "South Africa",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 59,308,690 and a land area of 1,213,090.",
+        "hint2": "The capital of this country is Pretoria (Administrative)"
+    },
+    {
+        "name": "South Korea",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 51,269,185 and a land area of 97,230.",
+        "hint2": "The capital of this country is Seoul."
+    },
+    {
+        "name": "South Sudan",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 11,193,725 and a land area of 610,952.",
+        "hint2": "The capital of this country is Juba."
+    },
+    {
+        "name": "Spain",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 46,754,778 and a land area of 498,800.",
+        "hint2": "The capital of this country is Madrid."
+    },
+    {
+        "name": "Sri Lanka",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 21,413,249 and a land area of 62,710.",
+        "hint2": "The capital of this country is Sri Jayawardenepura Kotte."
+    },
+    {
+        "name": "Sudan",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 43,849,260 and a land area of 1,765,048.",
+        "hint2": "The capital of this country is Khartoum."
+    },
+    {
+        "name": "Suriname",
+        "category": "countries",
+        "hint1": "Part of the South American continent with a population of 586,632 and a land area of 156,000.",
+        "hint2": "The capital of this country is Paramaribo."
+    },
+    {
+        "name": "Sweden",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 10,099,265 and a land area of 410,340.",
+        "hint2": "The capital of this country is Stockholm."
+    },
+    {
+        "name": "Switzerland",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 8,654,622 and a land area of 39,516.",
+        "hint2": "The capital of this country is Bern."
+    },
+    {
+        "name": "Syria",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 17,500,658 and a land area of 183,630.",
+        "hint2": "The capital of this country is Damascus."
+    },
+    {
+        "name": "Tajikistan",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 9,537,645 and a land area of 139,960.",
+        "hint2": "The capital of this country is Dushanbe."
+    },
+    {
+        "name": "Tanzania",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 59,734,218 and a land area of 885,800.",
+        "hint2": "The capital of this country is Dodoma."
+    },
+    {
+        "name": "Thailand",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 69,799,978 and a land area of 510,890.",
+        "hint2": "The capital of this country is Bangkok."
+    },
+    {
+        "name": "Togo",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 8,278,724 and a land area of 54,390.",
+        "hint2": "The capital of this country is Lome."
+    },
+    {
+        "name": "Tonga",
+        "category": "countries",
+        "hint1": "Part of the Ocenia continent with a population of 105,695 and a land area of 720.",
+        "hint2": "The capital of this country is Nuku'alofa."
+    },
+    {
+        "name": "Trinidad And Tobago",
+        "category": "countries",
+        "hint1": "Part of the North American continent with a population of 1,399,488 and a land area of 5,130.",
+        "hint2": "The capital of this country is Port of Spain."
+    },
+    {
+        "name": "Tunisia",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 11,818,619 and a land area of 155,360.",
+        "hint2": "The capital of this country is Tunis."
+    },
+    {
+        "name": "Turkey",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 84,339,067 and a land area of 769,630.",
+        "hint2": "The capital of this country is Ankara."
+    },
+    {
+        "name": "Turkmenistan",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 6,031,200 and a land area of 469,930.",
+        "hint2": "The capital of this country is Ashgabat."
+    },
+    {
+        "name": "Tuvalu",
+        "category": "countries",
+        "hint1": "Part of the Ocenia continent with a population of 11,792 and a land area of 30.",
+        "hint2": "The capital of this country is Funafuti."
+    },
+    {
+        "name": "Uganda",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 45,741,007 and a land area of 199,810.",
+        "hint2": "The capital of this country is Kampala."
+    },
+    {
+        "name": "Ukraine",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 43,733,762 and a land area of 579,320.",
+        "hint2": "The capital of this country is Kyiv (also known as Kiev)."
+    },
+    {
+        "name": "United Arab Emirates",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 9,890,402 and a land area of 83,600.",
+        "hint2": "The capital of this country is Abu Dhabi."
+    },
+    {
+        "name": "United Kingdom",
+        "category": "countries",
+        "hint1": "Part of the European continent with a population of 67,886,011 and a land area of 241,930.",
+        "hint2": "The capital of this country is London."
+    },
+    {
+        "name": "Uruguay",
+        "category": "countries",
+        "hint1": "Part of the South American continent with a population of 3,473,730 and a land area of 175,020.",
+        "hint2": "The capital of this country is Montevideo."
+    },
+    {
+        "name": "Uzbekistan",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 33,469,203 and a land area of 425,400.",
+        "hint2": "The capital of this country is Tashkent."
+    },
+    {
+        "name": "Vanuatu",
+        "category": "countries",
+        "hint1": "Part of the Ocenia continent with a population of 307,145 and a land area of 12,190.",
+        "hint2": "The capital of this country is Port Vila."
+    },
+    {
+        "name": "Venezuela",
+        "category": "countries",
+        "hint1": "Part of the South American continent with a population of 28,435,940 and a land area of 882,050.",
+        "hint2": "The capital of this country is Caracas."
+    },
+    {
+        "name": "Vietnam",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 97,338,579 and a land area of 310,070.",
+        "hint2": "The capital of this country is Hanoi."
+    },
+    {
+        "name": "Yemen",
+        "category": "countries",
+        "hint1": "Part of the Asian continent with a population of 29,825,964 and a land area of 527,970.",
+        "hint2": "The capital of this country is Sana'a."
+    },
+    {
+        "name": "Zambia",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 18,383,955 and a land area of 743,390.",
+        "hint2": "The capital of this country is Lusaka."
+    },
+    {
+        "name": "Zimbabwe",
+        "category": "countries",
+        "hint1": "Part of the African continent with a population of 14,862,924 and a land area of 386,850.",
+        "hint2": "The capital of this country is Harare."
+    },
+    {
+        "name": "Kabul",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 38,928,346 and a land area of  652,860.",
+        "hint2": "This city is the capital of Afghanistan."
+    },
+    {
+        "name": "Tirana",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 2,877,797 and a land area of  27,400.",
+        "hint2": "This city is the capital of Albania."
+    },
+    {
+        "name": "Algiers",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 43,851,044 and a land area of  2,381,740.",
+        "hint2": "This city is the capital of Algeria."
+    },
+    {
+        "name": "Andorra la Vella",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 77,265 and a land area of  470.",
+        "hint2": "This city is the capital of Andorra."
+    },
+    {
+        "name": "Luanda",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 32,866,272 and a land area of  1,246,700.",
+        "hint2": "This city is the capital of Angola."
+    },
+    {
+        "name": "Saint John's",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 97,929 and a land area of  440.",
+        "hint2": "This city is the capital of Antigua And Barbuda."
+    },
+    {
+        "name": "Buenos Aires",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 45,195,774 and a land area of  2,736,690.",
+        "hint2": "This city is the capital of Argentina."
+    },
+    {
+        "name": "Yerevan",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 2,963,243 and a land area of  28,470.",
+        "hint2": "This city is the capital of Armenia."
+    },
+    {
+        "name": "Canberra",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 25,499,884 and a land area of  7,682,300.",
+        "hint2": "This city is the capital of Australia."
+    },
+    {
+        "name": "Vienna",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 9,006,398 and a land area of  82,409.",
+        "hint2": "This city is the capital of Austria."
+    },
+    {
+        "name": "Baku",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 10,139,177 and a land area of  82,658.",
+        "hint2": "This city is the capital of Azerbaijan."
+    },
+    {
+        "name": "Nassau",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 393,244 and a land area of  10,010.",
+        "hint2": "This city is the capital of Bahamas."
+    },
+    {
+        "name": "Manama",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 1,701,575 and a land area of  760.",
+        "hint2": "This city is the capital of Bahrain."
+    },
+    {
+        "name": "Dhaka",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 164,689,383 and a land area of  130,170.",
+        "hint2": "This city is the capital of Bangladesh."
+    },
+    {
+        "name": "Bridgetown",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 287,375 and a land area of  430.",
+        "hint2": "This city is the capital of Barbados."
+    },
+    {
+        "name": "Minsk",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 9,449,323 and a land area of  202,910.",
+        "hint2": "This city is the capital of Belarus."
+    },
+    {
+        "name": "Brussels",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 11,589,623 and a land area of  30,280.",
+        "hint2": "This city is the capital of Belgium."
+    },
+    {
+        "name": "Belmopan",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 397,628 and a land area of  22,810.",
+        "hint2": "This city is the capital of Belize."
+    },
+    {
+        "name": "Porto-Novo",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 12,123,200 and a land area of  112,760.",
+        "hint2": "This city is the capital of Benin."
+    },
+    {
+        "name": "Thimphu",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 771,608 and a land area of  38,117.",
+        "hint2": "This city is the capital of Bhutan."
+    },
+    {
+        "name": "La Paz",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 11,673,021 and a land area of  1,083,300.",
+        "hint2": "This city is the capital of Bolivia."
+    },
+    {
+        "name": "Sarajevo",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 3,280,819 and a land area of  51,000.",
+        "hint2": "This city is the capital of Bosnia And Herzegovina."
+    },
+    {
+        "name": "Gaborone",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 2,351,627 and a land area of  566,730.",
+        "hint2": "This city is the capital of Botswana."
+    },
+    {
+        "name": "Brasilia",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 212,559,417 and a land area of  8,358,140.",
+        "hint2": "This city is the capital of Brazil."
+    },
+    {
+        "name": "Bandar Seri Begawan",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 437,479 and a land area of  5,270.",
+        "hint2": "This city is the capital of Brunei."
+    },
+    {
+        "name": "Sofia",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 6,948,445 and a land area of  108,560.",
+        "hint2": "This city is the capital of Bulgaria."
+    },
+    {
+        "name": "Ouagadougou",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 20,903,273 and a land area of  273,600.",
+        "hint2": "This city is the capital of Burkina Faso."
+    },
+    {
+        "name": "Gitega",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 11,890,784 and a land area of  25,680.",
+        "hint2": "This city is the capital of Burundi."
+    },
+    {
+        "name": "Phnom Penh",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 16,718,965 and a land area of  176,520.",
+        "hint2": "This city is the capital of Cambodia."
+    },
+    {
+        "name": "Yaounde",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 26,545,863 and a land area of  472,710.",
+        "hint2": "This city is the capital of Cameroon."
+    },
+    {
+        "name": "Ottawa",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 37,742,154 and a land area of  9,093,510.",
+        "hint2": "This city is the capital of Canada."
+    },
+    {
+        "name": "Bangui",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 4,829,767 and a land area of  622,980.",
+        "hint2": "This city is the capital of Central African Republic."
+    },
+    {
+        "name": "N'Djamena",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 16,425,864 and a land area of  1,259,200.",
+        "hint2": "This city is the capital of Chad."
+    },
+    {
+        "name": "Santiago",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 19,116,201 and a land area of  743,532.",
+        "hint2": "This city is the capital of Chile."
+    },
+    {
+        "name": "Beijing",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 1439,323,776 and a land area of  9,388,211.",
+        "hint2": "This city is the capital of China."
+    },
+    {
+        "name": "Bogota",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 50,882,891 and a land area of  1,109,500.",
+        "hint2": "This city is the capital of Colombia."
+    },
+    {
+        "name": "Moroni",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 869,601 and a land area of  1,861.",
+        "hint2": "This city is the capital of Comoros."
+    },
+    {
+        "name": "San Jose",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 5,094,118 and a land area of  51,060.",
+        "hint2": "This city is the capital of Costa Rica."
+    },
+    {
+        "name": "Zagreb",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 4,105,267 and a land area of  55,960.",
+        "hint2": "This city is the capital of Croatia."
+    },
+    {
+        "name": "Havana",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 11,326,616 and a land area of  106,440.",
+        "hint2": "This city is the capital of Cuba."
+    },
+    {
+        "name": "Nicosia",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 1,207,359 and a land area of  9,240.",
+        "hint2": "This city is the capital of Cyprus."
+    },
+    {
+        "name": "Prague",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 10,708,981 and a land area of  77,240.",
+        "hint2": "This city is the capital of Czechia."
+    },
+    {
+        "name": "Copenhagen",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 5,792,202 and a land area of  42,430.",
+        "hint2": "This city is the capital of Denmark."
+    },
+    {
+        "name": "Djibouti",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 988,000 and a land area of  23,180.",
+        "hint2": "This city is the capital of Djibouti."
+    },
+    {
+        "name": "Roseau",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 71,986 and a land area of  750.",
+        "hint2": "This city is the capital of Dominica."
+    },
+    {
+        "name": "Santo Domingo",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 10,847,910 and a land area of  48,320.",
+        "hint2": "This city is the capital of Dominican Republic."
+    },
+    {
+        "name": "Quito",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 17,643,054 and a land area of  248,360.",
+        "hint2": "This city is the capital of Ecuador."
+    },
+    {
+        "name": "Cairo",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 102,334,404 and a land area of  995,450.",
+        "hint2": "This city is the capital of Egypt."
+    },
+    {
+        "name": "San Salvador",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 6,486,205 and a land area of  20,720.",
+        "hint2": "This city is the capital of El Salvador."
+    },
+    {
+        "name": "Malabo",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 1,402,985 and a land area of  28,050.",
+        "hint2": "This city is the capital of Equatorial Guinea."
+    },
+    {
+        "name": "Asmara",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 3,546,421 and a land area of  101,000.",
+        "hint2": "This city is the capital of Eritrea."
+    },
+    {
+        "name": "Tallinn",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 1,326,535 and a land area of  42,390.",
+        "hint2": "This city is the capital of Estonia."
+    },
+    {
+        "name": "Addis Ababa",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 114,963,588 and a land area of  1,000,000.",
+        "hint2": "This city is the capital of Ethiopia."
+    },
+    {
+        "name": "Suva",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 896,445 and a land area of  18,270.",
+        "hint2": "This city is the capital of Fiji."
+    },
+    {
+        "name": "Helsinki",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 5,540,720 and a land area of  303,890.",
+        "hint2": "This city is the capital of Finland."
+    },
+    {
+        "name": "Paris",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 65,273,511 and a land area of  547,557.",
+        "hint2": "This city is the capital of France."
+    },
+    {
+        "name": "Libreville",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 2,225,734 and a land area of  257,670.",
+        "hint2": "This city is the capital of Gabon."
+    },
+    {
+        "name": "Banjul",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 2,416,668 and a land area of  10,120.",
+        "hint2": "This city is the capital of Gambia."
+    },
+    {
+        "name": "Tbilisi",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 3,989,167 and a land area of  69,490.",
+        "hint2": "This city is the capital of Georgia."
+    },
+    {
+        "name": "Berlin",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 83,783,942 and a land area of  348,560.",
+        "hint2": "This city is the capital of Germany."
+    },
+    {
+        "name": "Accra",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 31,072,940 and a land area of  227,540.",
+        "hint2": "This city is the capital of Ghana."
+    },
+    {
+        "name": "Athens",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 10,423,054 and a land area of  128,900.",
+        "hint2": "This city is the capital of Greece."
+    },
+    {
+        "name": "Saint George's",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 112,523 and a land area of  340.",
+        "hint2": "This city is the capital of Grenada."
+    },
+    {
+        "name": "Guatemala City",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 17,915,568 and a land area of  107,160.",
+        "hint2": "This city is the capital of Guatemala."
+    },
+    {
+        "name": "Conakry",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 13,132,795 and a land area of  245,720.",
+        "hint2": "This city is the capital of Guinea."
+    },
+    {
+        "name": "Bissau",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 1,968,001 and a land area of  28,120.",
+        "hint2": "This city is the capital of Guinea-Bissau."
+    },
+    {
+        "name": "Georgetown",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 786,552 and a land area of  196,850.",
+        "hint2": "This city is the capital of Guyana."
+    },
+    {
+        "name": "Port-au-Prince",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 11,402,528 and a land area of  27,560.",
+        "hint2": "This city is the capital of Haiti."
+    },
+    {
+        "name": "Tegucigalpa",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 9,904,607 and a land area of  111,890.",
+        "hint2": "This city is the capital of Honduras."
+    },
+    {
+        "name": "Budapest",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 9,660,351 and a land area of  90,530.",
+        "hint2": "This city is the capital of Hungary."
+    },
+    {
+        "name": "Reykjavik",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 341,243 and a land area of  100,250.",
+        "hint2": "This city is the capital of Iceland."
+    },
+    {
+        "name": "New Delhi",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 1380,004,385 and a land area of  2,973,190.",
+        "hint2": "This city is the capital of India."
+    },
+    {
+        "name": "Jakarta",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 273,523,615 and a land area of  1,811,570.",
+        "hint2": "This city is the capital of Indonesia."
+    },
+    {
+        "name": "Tehran",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 83,992,949 and a land area of  1,628,550.",
+        "hint2": "This city is the capital of Iran."
+    },
+    {
+        "name": "Baghdad",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 40,222,493 and a land area of  434,320.",
+        "hint2": "This city is the capital of Iraq."
+    },
+    {
+        "name": "Dublin",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 4,937,786 and a land area of  68,890.",
+        "hint2": "This city is the capital of Ireland."
+    },
+    {
+        "name": "Jerusalem",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 8,655,535 and a land area of  21,640.",
+        "hint2": "This city is the capital of Israel."
+    },
+    {
+        "name": "Rome",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 60,461,826 and a land area of  294,140.",
+        "hint2": "This city is the capital of Italy."
+    },
+    {
+        "name": "Yamoussoukro",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 26,378,274 and a land area of  318,000.",
+        "hint2": "This city is the capital of Ivory Coast."
+    },
+    {
+        "name": "Kingston",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 2,961,167 and a land area of  10,830.",
+        "hint2": "This city is the capital of Jamaica."
+    },
+    {
+        "name": "Tokyo",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 126,476,461 and a land area of  364,555.",
+        "hint2": "This city is the capital of Japan."
+    },
+    {
+        "name": "Amman",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 10,203,134 and a land area of  88,780.",
+        "hint2": "This city is the capital of Jordan."
+    },
+    {
+        "name": "Nur-Sultan",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 18,776,707 and a land area of  2,699,700.",
+        "hint2": "This city is the capital of Kazakhstan."
+    },
+    {
+        "name": "Nairobi",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 53,771,296 and a land area of  569,140.",
+        "hint2": "This city is the capital of Kenya."
+    },
+    {
+        "name": "Tarawa",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 119,449 and a land area of  810.",
+        "hint2": "This city is the capital of Kiribati."
+    },
+    {
+        "name": "Kuwait City",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 4,270,571 and a land area of  17,820.",
+        "hint2": "This city is the capital of Kuwait."
+    },
+    {
+        "name": "Bishkek",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 6,524,195 and a land area of  191,800.",
+        "hint2": "This city is the capital of Kyrgyzstan."
+    },
+    {
+        "name": "Vientiane",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 7,275,560 and a land area of  230,800.",
+        "hint2": "This city is the capital of Laos."
+    },
+    {
+        "name": "Riga",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 1,886,198 and a land area of  62,200.",
+        "hint2": "This city is the capital of Latvia."
+    },
+    {
+        "name": "Beirut",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 6,825,445 and a land area of  10,230.",
+        "hint2": "This city is the capital of Lebanon."
+    },
+    {
+        "name": "Maseru",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 2,142,249 and a land area of  30,360.",
+        "hint2": "This city is the capital of Lesotho."
+    },
+    {
+        "name": "Monrovia",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 5,057,681 and a land area of  96,320.",
+        "hint2": "This city is the capital of Liberia."
+    },
+    {
+        "name": "Tripoli",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 6,871,292 and a land area of  1,759,540.",
+        "hint2": "This city is the capital of Libya."
+    },
+    {
+        "name": "Vaduz",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 38,128 and a land area of  160.",
+        "hint2": "This city is the capital of Liechtenstein."
+    },
+    {
+        "name": "Vilnius",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 2,722,289 and a land area of  62,674.",
+        "hint2": "This city is the capital of Lithuania."
+    },
+    {
+        "name": "Luxembourg",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 625,978 and a land area of  2,590.",
+        "hint2": "This city is the capital of Luxembourg."
+    },
+    {
+        "name": "Antananarivo",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 27,691,018 and a land area of  581,795.",
+        "hint2": "This city is the capital of Madagascar."
+    },
+    {
+        "name": "Lilongwe",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 19,129,952 and a land area of  94,280.",
+        "hint2": "This city is the capital of Malawi."
+    },
+    {
+        "name": "Kuala Lumpur",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 32,365,999 and a land area of  328,550.",
+        "hint2": "This city is the capital of Malaysia."
+    },
+    {
+        "name": "Male",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 540,544 and a land area of  300.",
+        "hint2": "This city is the capital of Maldives."
+    },
+    {
+        "name": "Bamako",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 20,250,833 and a land area of  1,220,190.",
+        "hint2": "This city is the capital of Mali."
+    },
+    {
+        "name": "Valletta",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 441,543 and a land area of  320.",
+        "hint2": "This city is the capital of Malta."
+    },
+    {
+        "name": "Majuro",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 59,190 and a land area of  180.",
+        "hint2": "This city is the capital of Marshall Islands."
+    },
+    {
+        "name": "Nouakchott",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 4,649,658 and a land area of  1,030,700.",
+        "hint2": "This city is the capital of Mauritania."
+    },
+    {
+        "name": "Port Louis",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 1,271,768 and a land area of  2,030.",
+        "hint2": "This city is the capital of Mauritius."
+    },
+    {
+        "name": "Mexico City",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 128,932,753 and a land area of  1,943,950.",
+        "hint2": "This city is the capital of Mexico."
+    },
+    {
+        "name": "Palikir",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 548,914 and a land area of  700.",
+        "hint2": "This city is the capital of Micronesia."
+    },
+    {
+        "name": "Chisinau",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 4,033,963 and a land area of  32,850.",
+        "hint2": "This city is the capital of Moldova."
+    },
+    {
+        "name": "Monaco",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 39,242 and a land area of  1.",
+        "hint2": "This city is the capital of Monaco."
+    },
+    {
+        "name": "Ulaanbaatar",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 3,278,290 and a land area of  1,553,560.",
+        "hint2": "This city is the capital of Mongolia."
+    },
+    {
+        "name": "Podgorica",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 628,066 and a land area of  13,450.",
+        "hint2": "This city is the capital of Montenegro."
+    },
+    {
+        "name": "Rabat",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 36,910,560 and a land area of  446,300.",
+        "hint2": "This city is the capital of Morocco."
+    },
+    {
+        "name": "Maputo",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 31,255,435 and a land area of  786,380.",
+        "hint2": "This city is the capital of Mozambique."
+    },
+    {
+        "name": "Windhoek",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 2,540,905 and a land area of  823,290.",
+        "hint2": "This city is the capital of Namibia."
+    },
+    {
+        "name": "Yaren District",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 10,824 and a land area of  20.",
+        "hint2": "This city is the capital of Nauru."
+    },
+    {
+        "name": "Kathmandu",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 29,136,808 and a land area of  143,350.",
+        "hint2": "This city is the capital of Nepal."
+    },
+    {
+        "name": "Amsterdam",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 17,134,872 and a land area of  33,720.",
+        "hint2": "This city is the capital of Netherlands."
+    },
+    {
+        "name": "Wellington",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 4,822,233 and a land area of  263,310.",
+        "hint2": "This city is the capital of New Zealand."
+    },
+    {
+        "name": "Managua",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 6,624,554 and a land area of  120,340.",
+        "hint2": "This city is the capital of Nicaragua."
+    },
+    {
+        "name": "Niamey",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 24,206,644 and a land area of  1,266,700.",
+        "hint2": "This city is the capital of Niger."
+    },
+    {
+        "name": "Abuja",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 206,139,589 and a land area of  910,770.",
+        "hint2": "This city is the capital of Nigeria."
+    },
+    {
+        "name": "Pyongyang",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 25,778,816 and a land area of  120,410.",
+        "hint2": "This city is the capital of North Korea."
+    },
+    {
+        "name": "Oslo",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 5,421,241 and a land area of  365,268.",
+        "hint2": "This city is the capital of Norway."
+    },
+    {
+        "name": "Muscat",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 5,106,626 and a land area of  309,500.",
+        "hint2": "This city is the capital of Oman."
+    },
+    {
+        "name": "Islamabad",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 220,892,340 and a land area of  770,880.",
+        "hint2": "This city is the capital of Pakistan."
+    },
+    {
+        "name": "Ngerulmud",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 18,094 and a land area of  460.",
+        "hint2": "This city is the capital of Palau."
+    },
+    {
+        "name": "Jerusalem",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 5,101,414 and a land area of  6,020.",
+        "hint2": "This city is the capital of Palestine."
+    },
+    {
+        "name": "Panama City",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 4,314,767 and a land area of  74,340.",
+        "hint2": "This city is the capital of Panama."
+    },
+    {
+        "name": "Port Moresby",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 8,947,024 and a land area of  452,860.",
+        "hint2": "This city is the capital of Papua New Guinea."
+    },
+    {
+        "name": "Asuncion",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 7,132,538 and a land area of  397,300.",
+        "hint2": "This city is the capital of Paraguay."
+    },
+    {
+        "name": "Lima",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 32,971,854 and a land area of  1,280,000.",
+        "hint2": "This city is the capital of Peru."
+    },
+    {
+        "name": "Manila",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 109,581,078 and a land area of  298,170.",
+        "hint2": "This city is the capital of Philippines."
+    },
+    {
+        "name": "Warsaw",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 37,846,611 and a land area of  306,230.",
+        "hint2": "This city is the capital of Poland."
+    },
+    {
+        "name": "Lisbon",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 10,196,709 and a land area of  91,590.",
+        "hint2": "This city is the capital of Portugal."
+    },
+    {
+        "name": "Doha",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 2,881,053 and a land area of  11,610.",
+        "hint2": "This city is the capital of Qatar."
+    },
+    {
+        "name": "Bucharest",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 19,237,691 and a land area of  230,170.",
+        "hint2": "This city is the capital of Romania."
+    },
+    {
+        "name": "Moscow",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 145,934,462 and a land area of  16,376,870.",
+        "hint2": "This city is the capital of Russia."
+    },
+    {
+        "name": "Kigali",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 12,952,218 and a land area of  24,670.",
+        "hint2": "This city is the capital of Rwanda."
+    },
+    {
+        "name": "Basseterre",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 53,199 and a land area of  260.",
+        "hint2": "This city is the capital of Saint Kitts And Nevis."
+    },
+    {
+        "name": "Castries",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 183,627 and a land area of  610.",
+        "hint2": "This city is the capital of Saint Lucia."
+    },
+    {
+        "name": "Kingstown",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 110,940 and a land area of  390.",
+        "hint2": "This city is the capital of Saint Vincent And The Grenadines."
+    },
+    {
+        "name": "Apia",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 198,414 and a land area of  2,830.",
+        "hint2": "This city is the capital of Samoa."
+    },
+    {
+        "name": "San Marino",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 33,931 and a land area of  60.",
+        "hint2": "This city is the capital of San Marino."
+    },
+    {
+        "name": "Sao Tome",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 219,159 and a land area of  960.",
+        "hint2": "This city is the capital of Sao Tome And Principe."
+    },
+    {
+        "name": "Riyadh",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 34,813,871 and a land area of  2,149,690.",
+        "hint2": "This city is the capital of Saudi Arabia."
+    },
+    {
+        "name": "Dakar",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 16,743,927 and a land area of  192,530.",
+        "hint2": "This city is the capital of Senegal."
+    },
+    {
+        "name": "Belgrade",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 8,737,371 and a land area of  87,460.",
+        "hint2": "This city is the capital of Serbia."
+    },
+    {
+        "name": "Victoria",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 98,347 and a land area of  460.",
+        "hint2": "This city is the capital of Seychelles."
+    },
+    {
+        "name": "Freetown",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 7,976,983 and a land area of  72,180.",
+        "hint2": "This city is the capital of Sierra Leone."
+    },
+    {
+        "name": "Singapore",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 5,850,342 and a land area of  700.",
+        "hint2": "This city is the capital of Singapore."
+    },
+    {
+        "name": "Bratislava",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 5,459,642 and a land area of  48,088.",
+        "hint2": "This city is the capital of Slovakia."
+    },
+    {
+        "name": "Ljubljana",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 2,078,938 and a land area of  20,140.",
+        "hint2": "This city is the capital of Slovenia."
+    },
+    {
+        "name": "Honiara",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 686,884 and a land area of  27,990.",
+        "hint2": "This city is the capital of Solomon Islands."
+    },
+    {
+        "name": "Mogadishu",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 15,893,222 and a land area of  627,340.",
+        "hint2": "This city is the capital of Somalia."
+    },
+    {
+        "name": "Pretoria",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 59,308,690 and a land area of  1,213,090.",
+        "hint2": "This city is the capital of South Africa."
+    },
+    {
+        "name": "Seoul",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 51,269,185 and a land area of  97,230.",
+        "hint2": "This city is the capital of South Korea."
+    },
+    {
+        "name": "Juba",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 11,193,725 and a land area of  610,952.",
+        "hint2": "This city is the capital of South Sudan."
+    },
+    {
+        "name": "Madrid",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 46,754,778 and a land area of  498,800.",
+        "hint2": "This city is the capital of Spain."
+    },
+    {
+        "name": "Sri Jayawardenepura Kotte",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 21,413,249 and a land area of  62,710.",
+        "hint2": "This city is the capital of Sri Lanka."
+    },
+    {
+        "name": "Khartoum",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 43,849,260 and a land area of  1,765,048.",
+        "hint2": "This city is the capital of Sudan."
+    },
+    {
+        "name": "Paramaribo",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 586,632 and a land area of  156,000.",
+        "hint2": "This city is the capital of Suriname."
+    },
+    {
+        "name": "Stockholm",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 10,099,265 and a land area of  410,340.",
+        "hint2": "This city is the capital of Sweden."
+    },
+    {
+        "name": "Bern",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 8,654,622 and a land area of  39,516.",
+        "hint2": "This city is the capital of Switzerland."
+    },
+    {
+        "name": "Damascus",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 17,500,658 and a land area of  183,630.",
+        "hint2": "This city is the capital of Syria."
+    },
+    {
+        "name": "Dushanbe",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 9,537,645 and a land area of  139,960.",
+        "hint2": "This city is the capital of Tajikistan."
+    },
+    {
+        "name": "Dodoma",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 59,734,218 and a land area of  885,800.",
+        "hint2": "This city is the capital of Tanzania."
+    },
+    {
+        "name": "Bangkok",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 69,799,978 and a land area of  510,890.",
+        "hint2": "This city is the capital of Thailand."
+    },
+    {
+        "name": "Lome",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 8,278,724 and a land area of  54,390.",
+        "hint2": "This city is the capital of Togo."
+    },
+    {
+        "name": "Nuku'alofa",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 105,695 and a land area of  720.",
+        "hint2": "This city is the capital of Tonga."
+    },
+    {
+        "name": "Port of Spain",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 1,399,488 and a land area of  5,130.",
+        "hint2": "This city is the capital of Trinidad And Tobago."
+    },
+    {
+        "name": "Tunis",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 11,818,619 and a land area of  155,360.",
+        "hint2": "This city is the capital of Tunisia."
+    },
+    {
+        "name": "Ankara",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 84,339,067 and a land area of  769,630.",
+        "hint2": "This city is the capital of Turkey."
+    },
+    {
+        "name": "Ashgabat",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 6,031,200 and a land area of  469,930.",
+        "hint2": "This city is the capital of Turkmenistan."
+    },
+    {
+        "name": "Funafuti",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 11,792 and a land area of  30.",
+        "hint2": "This city is the capital of Tuvalu."
+    },
+    {
+        "name": "Kampala",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 45,741,007 and a land area of  199,810.",
+        "hint2": "This city is the capital of Uganda."
+    },
+    {
+        "name": "Kiev",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 43,733,762 and a land area of  579,320.",
+        "hint2": "This city is the capital of Ukraine."
+    },
+    {
+        "name": "Abu Dhabi",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 9,890,402 and a land area of  83,600.",
+        "hint2": "This city is the capital of United Arab Emirates."
+    },
+    {
+        "name": "London",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 67,886,011 and a land area of  241,930.",
+        "hint2": "This city is the capital of United Kingdom."
+    },
+    {
+        "name": "Montevideo",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 3,473,730 and a land area of  175,020.",
+        "hint2": "This city is the capital of Uruguay."
+    },
+    {
+        "name": "Tashkent",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 33,469,203 and a land area of  425,400.",
+        "hint2": "This city is the capital of Uzbekistan."
+    },
+    {
+        "name": "Port Vila",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 307,145 and a land area of  12,190.",
+        "hint2": "This city is the capital of Vanuatu."
+    },
+    {
+        "name": "Caracas",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 28,435,940 and a land area of  882,050.",
+        "hint2": "This city is the capital of Venezuela."
+    },
+    {
+        "name": "Hanoi",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 97,338,579 and a land area of  310,070.",
+        "hint2": "This city is the capital of Vietnam."
+    },
+    {
+        "name": "Sana'a",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 29,825,964 and a land area of  527,970.",
+        "hint2": "This city is the capital of Yemen."
+    },
+    {
+        "name": "Lusaka",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 18,383,955 and a land area of  743,390.",
+        "hint2": "This city is the capital of Zambia."
+    },
+    {
+        "name": "Harare",
+        "category": "capitals",
+        "hint1": "The country where this city is located has a total population of 14,862,924 and a land area of  386,850.",
+        "hint2": "This city is the capital of Zimbabwe."
+    }
+]

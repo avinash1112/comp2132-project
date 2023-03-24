@@ -1,0 +1,148 @@
+@media screen and (min-width:768px) {
+
+    /* --------------------------------------------------------- ALL PAGES ---------------------------------------------------------- */
+    .navbar-menu-button {
+        display: none;
+    }
+
+    header {
+        grid-template-areas: 
+            'headline headline navbar';
+    }
+    
+    .header-title {
+        font-size: 20px;
+    }
+
+    .navbar {
+        visibility:     visible;
+        height:         auto;
+        border-radius:  10px;
+        padding:        1rem;
+        background:     $color-white;
+    }
+    
+    .menu-list {
+        flex-direction:     row;
+        justify-content:    flex-end;
+        
+
+        &-item {
+            border:         solid 1px $color-info;
+            padding:        0;
+            border-radius:  10px;
+
+            .menu-link {
+                display: inline-block;
+                padding: 1rem;
+            }
+
+            &:last-child {
+                border-bottom: solid 1px $color-info;
+            }
+
+            &:hover {
+                font-size:  1em;
+                background: $color-info;
+            }
+        }   
+        
+        
+        .menu-list-item {
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+        }
+    }
+
+    .author {
+        font-size:      1.17em;
+        border-width:   5px;
+    }
+    
+    .welcome {
+        font-size: 1.8em;
+    }
+
+    footer {
+        font-size: 0.77em;
+    }
+    
+    /* --------------------------------------------------------- INDEX.HTML ------------------------------------------------------- */
+    .game-selection-container {
+        grid-template-columns:  1fr;
+        grid-template-rows:     0.2fr 1fr;
+    }
+
+    .games-container {
+        grid-template-rows:     1fr;
+        grid-template-columns:  1fr 1fr;
+    }
+
+    .game-tile {
+        padding: 2rem;
+    }
+
+    .game-title {
+        font-size: 1.17em;
+    }
+
+
+    /* ---------------------------------------------------------- DICE.HTML ------------------------------------------------------- */
+    
+    #dice-page {
+
+        .game-controllers  {
+            flex-direction: row;
+            row-gap: 2rem;
+            background-color: lighten($color-success, 35%);
+
+
+            &:before {
+                width: 80px;
+                height: auto;
+                border-radius:0 40px 40px 0;
+                background-color: $color-white;    
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 10px;
+                content: '';
+                border-right: solid 1px $color-success;
+            }
+
+            &:after {
+                width: 80px;
+                height: auto;
+                border-radius: 40px 0 0 40px;
+                background-color: $color-white;    
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 10px;
+                content: '';
+                border-left: solid 1px $color-success;
+            }
+
+        }
+
+        
+    }
+
+
+
+    /* --------------------------------------------------------- HANGMAN.HTML ----------------------------------------------------- */
+    
+    #hangman-page {
+
+        .controllers {
+
+            .buttons-container {
+                grid-template-columns: 1fr 1fr !important;
+                grid-template-rows: 1fr !important;
+    
+                .new-game-button {
+                    padding: 15px 25px !important;
+                    font-size: 0.8em !important;
+                }
+            }
+        }
+    }
+}

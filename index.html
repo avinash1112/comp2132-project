@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home | COMP 2132</title>
+        <link rel="icon" href="graphics/favicon/jsIcon.png">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="scripts/functions.js" defer></script>
+    </head>
+    
+    <body>
+        <div id="wrapper" class="grid">
+            <header class="grid">
+                <a href="index.html" class="flex-row justify-contents-flex-start headline">
+                    <img class="logo block width-50" src="graphics/images/navbar-logo.jpg" alt="navbar logo">
+                    <h2 class="header-title color-info">COMP2132 Project</h2>
+                </a>
+
+                <p class="navbar-menu-button btn-outline-info btn-medium">Menu</p>
+
+                <nav class="navbar">
+                    <ul class="flex-col menu-list">
+                        <li class="text-center menu-list-item" ><a class="menu-link" href="index.html">Game Selection</a></li>
+                        <li class="text-center menu-list-item"><a class="menu-link" href="pages/dice.html">Dice Game</a></li>
+                        <li class="text-center menu-list-item"><a class="menu-link" href="pages/hangman.html">Hangman Game</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <main class="page-main grid">
+                <h3 class="author width-100 color-inverse">Avinash Seebaruth&nbsp;&#40;A00995961&#41;</h3>
+                
+                <section class="game-selection-container grid">
+                    <div class="welcome width-100 text-center color-inverse mb-2"><span>Choose your favorite game</span></div>
+
+                    <div class="games-container grid grid-col-1-1">
+                        <a href="pages/dice.html" class="game-tile mx-auto my-auto">
+                            <h3 class="game-title text-center">Dice Game</h3>
+                            <img src="graphics/favicon/dice.png" alt="three red dices" class="block width-50 mx-auto my-auto">
+                        </a>
+
+                        <a href="pages/hangman.html" class="game-tile mx-auto my-auto">
+                            <h3 class="game-title text-center">Hangman Game</h3>
+                            <img src="graphics/favicon/hangman.png" alt="hangman pictorial" class="block width-50 mx-auto my-auto">
+                        </a>
+                    </div>
+                </section>
+            </main>
+
+            <footer class="grid grid-col-1-1">
+                <p class="copyright">Copyright&nbsp;&copy;<span class="current-year"></span></p>
+                <p>COMP2132 Web Development With JavaScript | CRN: 88278</p>
+            </footer>
+        </div>
+    </body>
+</html>

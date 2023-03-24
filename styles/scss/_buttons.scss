@@ -1,0 +1,179 @@
+%btn {
+    display:            block;
+    align-items:        center;
+    justify-content:    center;
+    margin:             auto;
+    border-style:       solid;
+    border-width:       1px;
+    border-radius:      10px;
+    font-size:          14px;
+    text-align:         center;
+    text-transform:     uppercase;
+    cursor:             pointer;
+
+    &:hover {
+        transition:     box-shadow 1s, background 1s, color 1s;
+    }
+}
+
+.btn-info,
+.btn-info:visited,
+.btn-info:focus {
+    @extend %btn;
+    @include set-btn-outline-hover-color($color-info);
+    
+    &:hover {
+        @include set-btn-outline-color($color-info);
+    }
+}
+
+.btn-outline-info,
+.btn-outline-info:visited,
+.btn-outline-info:focus {
+    @extend %btn;
+    @include set-btn-outline-color($color-info);
+
+    &:hover {
+        @include set-btn-outline-hover-color($color-info);
+    }
+}
+
+.btn-primary,
+.btn-primary:visited,
+.btn-primary:focus {
+    @extend %btn;
+    @include set-btn-outline-hover-color($color-primary);
+    
+    &:hover {
+        @include set-btn-outline-color($color-primary);
+    }
+}
+
+.btn-outline-primary,
+.btn-outline-primary:visited,
+.btn-outline-primary:focus {
+    @extend %btn;
+    @include set-btn-outline-color($color-primary);
+
+    &:hover {
+        @include set-btn-outline-hover-color($color-primary);
+    }    
+}   
+
+.btn-warning,
+.btn-warning:visited,
+.btn-warning:focus {
+    @extend %btn;
+    @include set-btn-outline-hover-color($color-warning);
+    
+    &:hover {
+        @include set-btn-outline-color($color-warning);
+    }
+}
+
+.btn-outline-warning,
+.btn-outline-warning:visited,
+.btn-outline-warning:focus {
+    @extend %btn;
+    @include set-btn-outline-color($color-warning);
+
+    &:hover {
+        @include set-btn-outline-hover-color($color-warning);
+    }
+}
+
+.btn-danger,
+.btn-danger:visited,
+.btn-danger:focus {
+    @extend %btn;
+    @include set-btn-outline-hover-color($color-danger);
+    
+    &:hover {
+        @include set-btn-outline-color($color-danger);
+    }
+}
+
+.btn-outline-danger,
+.btn-outline-danger:visited,
+.btn-outline-danger:focus {
+    @extend %btn;
+    @include set-btn-outline-color($color-danger);
+
+    &:hover {
+        @include set-btn-outline-hover-color($color-danger);
+    }
+}
+
+.btn-success,
+.btn-success:visited,
+.btn-success:focus {
+    @extend %btn;
+    @include set-btn-outline-hover-color($color-success);
+    
+    &:hover {
+        @include set-btn-outline-color($color-success);
+    }
+}
+
+.btn-outline-success,
+.btn-outline-success:visited,
+.btn-outline-success:focus {
+    @extend %btn;
+    @include set-btn-outline-color($color-success);
+
+    &:hover {
+        @include set-btn-outline-hover-color($color-success);
+    }
+}
+
+.btn-purple,
+.btn-purple:visited,
+.btn-purple:focus {
+    @extend %btn;
+    @include set-btn-outline-hover-color($color-purple);
+    
+    &:hover {
+        @include set-btn-outline-color($color-purple);
+    }
+}
+
+.btn-outline-purple,
+.btn-outline-purple:visited,
+.btn-outline-purple:focus {
+    @extend %btn;
+    @include set-btn-outline-color($color-purple);
+
+    &:hover {
+        @include set-btn-outline-hover-color($color-purple);
+    }
+}
+
+.btn-disabled,
+.btn-disabled:visited,
+.btn-disabled:focus {
+    @extend %btn;
+    color:          darken($color-disabled, 20%);
+	background:     lighten($color-disabled, 20%);
+    border-color:   darken($color-disabled, 10%);
+
+    &:hover {
+        cursor: default;
+        transition: none;
+        color:          darken($color-disabled, 20%);
+        background:     lighten($color-disabled, 20%);
+        border-color:   darken($color-disabled, 10%);   
+    }
+}
+
+.btn-small {
+    padding:    4px 7px;
+    height:     30px;
+}
+
+.btn-medium {
+	padding: 7px 12px;
+}
+
+.btn-large {
+	padding: 15px 25px;
+}
